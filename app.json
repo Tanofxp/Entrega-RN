@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "petshop",
+    "slug": "pet-shop",
+    "owner": "danifxp",
+    "version": "1.0.0",
+    "platforms": ["ios","android"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "CMAMERA",
+        "ACCESS_FINE_LOCATION",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMaps":{
+          "apiKey": "AIzaSyB_xwNat0FLOxK0bag5fkpwuSdaWlc39DI"
+        }
+      },
+      "package": "com.alanthedev.petshop"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "24528db5-298e-41d0-bc81-4089ca954afa"
+      }
+    }
+  }
+}
